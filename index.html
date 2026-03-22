@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 2 card match</title>
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+  <body>
+    <div id="gameContainer">
+      <header>
+        <div class="info">
+          <h1>Card Match</h1>
+          <p>Find the 3 matching paris of cards</p>
+        </div>
+
+        <div class="stats">
+          <h2>Attempts left: <span id="attemptscount">3</span></h2>
+        </div>
+      </header>
+
+      <div id="cardgrid" class="grid"></div>
+
+      <div id="overlay" class="hidden">
+        <h2 id="message">YOU WON!!</h2>
+        <button id="resetbtn">START OVER!</button>
+      </div>
+    </div>
+
+    <script src="JS/main.js" defer></script>
+  </body>
+</html>
